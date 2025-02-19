@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEHE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div id="main">
+      <div id="top">
+        <!-- <div id="nav-pic"></div> -->
+        <div id="navbarh">ShaadiWala.com</div>
+        <nav>
+          <ul id="top-ul">
+            <!-- <img src="images/calendar-icon2.png" alt="calendar" id="calendar-button" class="top-tabs"> -->
+            <li class="top-tabs" id="home-button">Home</li>
+            <li class="top-tabs" id="contact-button">Contact</li>
+            <li class="top-tabs" id="about-button">About Us</li>
+            <li class="top-tabs" id="calendar-button">Calendar</li>
+            <li class="top-tabs" id="calculator-button">Calculator</li>
+          </ul>
+        </nav>
+      </div>
+      <div id="mainnn">
+        <div id="main-content">
+          <h1 id="mainh1">Ab hall book krwayien ghar bethay!!</h1>
+          <!-- <div id="searchAndButton">
+            <input id="search-bar" type="text"id="searchbox" placeholder="Enter Your Area" />
+            <button id="search-button">Search</button>
+          </div> -->
+          <div id="abccc">
+            <div class="custom-select" style="width:400px;">
+              <select id="areas">
+                <option value="default">Select Your Area</option>
+                <option value="model">model</option>
+                <option value="colony">colony</option>
+              </select>
+            </div>
+            <button id="search-button">Search</button>
+          </div>
+            <p id="mainp">*Currently we are only covering limited areas</p>
+        </div>
+      </div>
+        <div id="footer">
+          <p id="copyright">&#174 Shaadiwala.com </p>
+        </div>
+    </div>
+    <!-- CALENADR HTML -->
+    <div class="overlay hidden"></div>
+    
+    <div id="root">
+
+      <div class="light calendar-modal hidden">
+        <div class="calendar">
+          <div class="calendar-header">
+            <button class="close-modal">&times;</button>
+              <span class="month-picker" id="month-picker">April</span>
+              <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                    <pre><</pre>
+                  </span>
+                  <span id="year">2022</span>
+                  <span class="year-change" id="next-year">
+                    <pre>></pre>
+                  </span>
+              </div>
+          </div>
+          <div class="calendar-body">
+            <div class="calendar-week-day">
+                  <div>Sun</div>
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                </div>
+              <div class="calendar-days"></div>
+          </div>
+         
+          <div class="month-list"></div>
+        </div>
+      </div>
+    </div>
+  <!-- FOR CALCULATOR -->
+  <div class="calculator-modal hidden">
+    <div class="calcmain">
+      <div class="calccc">
+  <div id="screen"></div>
+  <div id="main-buttons">
+    <div id="numbers">
+           <button class="buttons" id="one">1</button>
+           <button class="buttons" id="two">2</button>
+           <button class="buttons" id="three">3</button>
+           <button class="buttons" id="four">4</button>
+           <button class="buttons" id="five">5</button>
+           <button class="buttons" id="six">6</button>
+           <button class="buttons" id="seven">7</button>
+           <button class="buttons" id="eight">8</button>
+           <button class="buttons" id="nine">9</button>
+           <button class="buttons" id="zero">0</button>
+           <button class="buttons" id="decimal">.</button>
+           <button class="button" id="equals">=</button>
+          </div>
+         <div id="operations">
+           <button class="button" id="plus">+</button>
+           <button class="button" id="minus">-</button>
+           <button class="button" id="multiply">x</button>
+           <button class="button" id="divide">/</button>
+           <button class="button" id="clear">AC</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+
+
+
+
+   -->
+
+   
+    <script src="script.js"></script>
+  </body>
+</html>
+
